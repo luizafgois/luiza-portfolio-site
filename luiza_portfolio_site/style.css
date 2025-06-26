@@ -1,0 +1,72 @@
+/* Estilos gerais da página */
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+/* Estilo do menu de navegação */
+
+nav {
+  background-color: #222;
+  padding: 10px 0;
+}
+/* Remove marcadores da lista e alinha os links */
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+/* Espaçamento entre os itens do menu */
+
+nav li {
+  margin: 0 15px;
+}
+/* Estilo dos links do menu */
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Cor do link ao passar o mouse */
+
+nav a:hover {
+  color: #f8c400;
+}
+/* Estilo da área principal do conteúdo */
+
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+/* Estilos dos campos de formulário (input e textarea) */
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/* Estilo do botão do formulário */
+
+form button {
+  padding: 10px 20px;
+  background-color: #222;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* Cor do botão ao passar o mouse */
+form button:hover {
+  background-color: #444;
+}
